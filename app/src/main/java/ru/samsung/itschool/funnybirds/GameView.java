@@ -142,7 +142,7 @@ public class GameView extends View{
         pauseX = getWidth()-150;
         pauseY = getHeight()-150;
         canvas.drawBitmap(pause, pauseX, pauseY, p);
-        canvas.drawText("Уровень "+level, viewWidth - 250, 120, p);
+        canvas.drawText("Уровень: "+level, viewWidth - 250, 120, p);
         canvas.drawText("Очки: "+points, viewWidth - 250, 70, p);
         if(paused){
             p.setTextSize(100);
